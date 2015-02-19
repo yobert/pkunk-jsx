@@ -48,6 +48,7 @@ describe('pkunk-jsx', function() {
 		x('<X>\t\t\t</X>', 'tag("X", null, "\\t\\t\\t")');
 		x('<X>a	a	a</X>', 'tag("X", null, "a\\ta\\ta")');
 		x('<X>a\ta\ta</X>', 'tag("X", null, "a\\ta\\ta")');
+		x('<X>\na\ta\na\t</X>', 'tag("X", null, "\\na\\ta\\na\\t")');
 		x('<X>\n string\n</X>', 'tag("X", null, "\\n string\\n")');
 		x('<X>\n string\n string\n  </X>', 'tag("X", null, "\\n string\\n string\\n  ")');
 	});
