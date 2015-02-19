@@ -1,0 +1,15 @@
+{
+  "name": "pkunk-jsx",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "recast": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
+}
