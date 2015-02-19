@@ -1,7 +1,12 @@
 {
   "name": "pkunk-jsx",
+  "description": "A pkunk-flavored jsx transformer",
+  "author": "yobert@gmail.com",
   "version": "0.0.1",
   "main": "lib/index.js",
+  "bin": {
+    "pkunk-jsx": "./bin/pkunk-jsx"
+  },
   "scripts": {
     "test": "mocha"
   },
@@ -11,5 +16,13 @@
   "devDependencies": {
     "mocha": "*",
     "chai": "*"
-  }
+  },
+  "repository":{
+    "type": "git",
+	 "url": "https://github.com/yobert/pkunk-jsx"
+  },
+  "bugs":{
+	 "url": "https://github.com/yobert/pkunk-jsx/issues"
+	},
+	"license":"MIT"
 }
