@@ -2,7 +2,7 @@
   "name": "pkunk-jsx",
   "description": "A pkunk-flavored jsx transformer",
   "author": "yobert@gmail.com",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index.js",
   "bin": {
     "pkunk-jsx": "./bin/pkunk-jsx"
