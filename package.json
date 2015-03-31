@@ -2,7 +2,7 @@
   "name": "pkunk-jsx",
   "description": "A pkunk-flavored jsx transformer",
   "author": "yobert@gmail.com",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "lib/index.js",
   "bin": {
     "pkunk-jsx": "./bin/pkunk-jsx"
@@ -11,7 +11,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "recast": "*"
+    "recast": "0.9.0"
   },
   "devDependencies": {
     "mocha": "*",
